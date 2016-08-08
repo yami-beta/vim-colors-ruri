@@ -27,6 +27,6 @@ let s:p.tabline.tabsel  = [ [ s:white, s:black ] ]
 let s:p.tabline.middle  = [ [ s:white, s:gray ] ]
 let s:p.tabline.right   = copy(s:p.tabline.tabsel)
 let s:p.normal.error    = [ [ s:white, s:red ] ]
-let s:p.normal.warning  = [ [ s:black, s:yellow ] ]
+let s:p.normal.warning  = [ [ s:black, s:orange ] ]
 
 let g:lightline#colorscheme#ruri#palette = lightline#colorscheme#flatten(s:p)
