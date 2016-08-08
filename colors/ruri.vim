@@ -45,7 +45,7 @@ hi! link Operator Statement
 hi! link Keyword Statement
 hi! link Exception Statement
 
-exe 'hi! PreProc' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
+exe 'hi! PreProc' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui
 hi! link Include PreProc
 hi! link Define PreProc
 hi! link Macro PreProc
