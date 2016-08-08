@@ -1,3 +1,8 @@
+" Name:       ruri.vim
+" Version:    0.1
+" Author:     yami-beta
+" License:    The MIT License (MIT)
+
 let g:colors_name = 'ruri'
 set background=dark
 highlight clear
@@ -7,7 +12,7 @@ endif
 
 let s:black = {'cterm': '234', 'gui': '#1c1c1c'}
 let s:white = {'cterm': '251', 'gui': '#c6c6c6'}
-let s:red = {'cterm': '160', 'gui': '#c23248'}
+let s:red = {'cterm': '124', 'gui': '#ab3a2b'}
 let s:magenta = {'cterm': '125', 'gui': '#ab2b5c'}
 let s:blue = {'cterm': '25', 'gui': '#2a5caa'}
 let s:green = {'cterm': '70', 'gui': '#5cab2b'}
