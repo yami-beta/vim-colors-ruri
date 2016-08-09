@@ -67,7 +67,7 @@ exe 'hi! Visual' . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
 exe 'hi! Search' . ' ctermfg='.s:black.cterm . ' guifg='.s:black.gui . ' ctermbg='.s:orange.cterm . ' guibg='.s:orange.gui
 hi! link IncSearch Search
 exe 'hi! Underlined' . ' cterm=underline gui=underline' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
-exe 'hi! MatchParen' . ' term=reverse' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:blue.cterm . ' guibg='.s:blue.gui
+exe 'hi! MatchParen' . ' term=reverse' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
 
 hi! link LineNr Comment
 " exe 'hi! CursorLine' . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
