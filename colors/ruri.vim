@@ -94,11 +94,11 @@ exe 'hi! TabLineSel' . ' term=NONE cterm=NONE gui=NONE' . ' ctermfg='.s:white.ct
 hi! link TabLineFill Tabline
 exe 'hi! VertSplit' . ' term=NONE cterm=NONE gui=NONE' . ' ctermfg='.s:dark_gray.cterm . ' guifg='s:dark_gray.gui . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
 
-" hi! Todo
-" hi! DiffAdd
-" hi! DiffChange
-" hi! DiffDelete
-" hi! DiffText
+exe 'hi! Todo' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:magenta.cterm . ' guibg='.s:magenta.gui
+exe 'hi! DiffAdd' . ' ctermfg='.s:green.cterm . ' guifg='.s:green.gui . ' ctermbg=NONE guibg=NONE'
+exe 'hi! DiffChange' . ' ctermfg='.s:orange.cterm . ' guifg='.s:orange.gui . ' ctermbg=NONE guibg=NONE'
+exe 'hi! DiffDelete' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . ' ctermbg=NONE guibg=NONE'
+exe 'hi! DiffText' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg=NONE guibg=NONE'
 " hi! diffAdded
 " hi! diffRemoved
 " hi! Error
