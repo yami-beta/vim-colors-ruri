@@ -101,9 +101,9 @@ exe 'hi! DiffDelete' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . '
 exe 'hi! DiffText' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg=NONE guibg=NONE'
 " hi! diffAdded
 " hi! diffRemoved
-" hi! Error
-" hi! ErrorMsg
-" hi! WarningMsg
+exe 'hi! Error' . ' cterm=bold gui=bold' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:red.cterm . ' guibg='.s:red.gui
+exe 'hi! ErrorMsg' . ' ctermfg='.s:red.cterm . ' guifg='.s:red.gui . ' ctermbg=NONE guibg=NONE'
+exe 'hi! WarningMsg' . ' ctermfg='.s:red.cterm . ' guifg='.s:red.gui
 
 " hi! MoreMsg
 " hi! Operator
