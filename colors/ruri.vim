@@ -105,13 +105,14 @@ exe 'hi! Error' . ' cterm=bold gui=bold' . ' ctermfg='.s:white.cterm . ' guifg='
 exe 'hi! ErrorMsg' . ' ctermfg='.s:red.cterm . ' guifg='.s:red.gui . ' ctermbg=NONE guibg=NONE'
 exe 'hi! WarningMsg' . ' ctermfg='.s:red.cterm . ' guifg='.s:red.gui
 
-" hi! MoreMsg
+exe 'hi! MoreMsg' . ' cterm=bold gui=bold' . ' ctermfg='.s:gray.cterm . ' guifg='.s:gray.gui
+exe 'hi! ModeMsg' . ' cterm=bold gui=bold' . ' ctermfg='.s:gray.cterm . ' guifg='.s:gray.gui
 " hi! Operator
 " hi! Question
-" hi! SignColumn
+exe 'hi! SignColumn' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg=NONE guibg=NONE'
 " hi! Special
-" hi! SpellBad
-" hi! SpellCap
-" hi! SpellLocal
-" hi! SpellRare
+exe 'hi! SpellBad' . ' gui=undercurl' . ' guisp='.s:magenta.gui
+exe 'hi! SpellCap' . ' gui=undercurl' . ' guisp='.s:green.gui
+exe 'hi! SpellLocal' . ' gui=undercurl' . ' guisp='.s:blue.gui
+exe 'hi! SpellRare' . ' gui=undercurl' . ' guisp='.s:red.gui
 " hi! Structure
