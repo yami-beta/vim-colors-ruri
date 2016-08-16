@@ -41,8 +41,8 @@ exe 'hi! Statement' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . ' 
 hi! link Conditional Statement
 hi! link Repeat Statement
 hi! link Label Statement
-hi! link Operator Statement
-hi! link Keyword Statement
+exe 'hi! Operator' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
+hi! link Keyword Operator
 hi! link Exception Statement
 
 exe 'hi! PreProc' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui
@@ -59,9 +59,9 @@ hi! link Typedef Type
 exe 'hi! Special' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui
 hi! link SpecialChar Special
 hi! link Tag Special
-hi! link Delimiter Special
-hi! link SpecialComment Special
-hi! link Debug Special
+exe 'hi! Delimiter' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
+hi! link SpecialComment Delimiter
+hi! link Debug Delimiter
 
 exe 'hi! Visual' . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
 exe 'hi! Search' . ' ctermfg='.s:black.cterm . ' guifg='.s:black.gui . ' ctermbg='.s:orange.cterm . ' guibg='.s:orange.gui
