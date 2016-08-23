@@ -1,5 +1,4 @@
 " Name:       ruri.vim
-" Version:    0.1
 " Author:     yami-beta
 " License:    The MIT License (MIT)
 
@@ -21,6 +20,7 @@ let s:orange = {'cterm': '172', 'gui': '#cc7e00'}
 let s:light_blue = {'cterm': '37', 'gui': '#2b9cab'}
 let s:gray = {'cterm': '243', 'gui': '#767676'}
 let s:dark_gray = {'cterm': '238', 'gui': '#444444'}
+let s:light_black = {'cterm': '236', 'gui': '#303030'}
 
 
 exe 'hi! Normal' . ' ctermfg='.s:white.cterm  . ' ctermbg='.s:black.cterm . ' guifg='.s:white.gui ' guibg='.s:black.gui
@@ -70,10 +70,8 @@ exe 'hi! Underlined' . ' cterm=underline gui=underline' . ' ctermfg='.s:blue.cte
 exe 'hi! MatchParen' . ' term=reverse' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
 
 hi! link LineNr Comment
-" exe 'hi! CursorLine' . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
-hi! clear CursorLine
-" exe 'hi! CursorLineNr' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . ' ctermbg='.s:dark_gray.cterm . ' guibg='.s:dark_gray.gui
-exe 'hi! CursorLineNr' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
+exe 'hi! CursorLine' . ' cterm=NONE gui=NONE' . ' ctermbg='.s:light_black.cterm . ' guibg='.s:light_black.gui
+exe 'hi! CursorLineNr' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg='.s:light_black.cterm . ' guibg='.s:light_black.gui
 exe 'hi! SpecialKey' . ' term=NONE gui=NONE' . ' ctermfg='.s:dark_gray.cterm . ' guifg='.s:dark_gray.gui
 hi! link NonText SpecialKey
 exe 'hi! Cursor' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg='.s:blue.cterm . ' guibg='.s:blue.gui
@@ -109,7 +107,6 @@ exe 'hi! Question' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
 exe 'hi! MoreMsg' . ' cterm=bold gui=bold' . ' ctermfg='.s:gray.cterm . ' guifg='.s:gray.gui
 exe 'hi! ModeMsg' . ' cterm=bold gui=bold' . ' ctermfg='.s:gray.cterm . ' guifg='.s:gray.gui
 " hi! Operator
-" hi! Question
 exe 'hi! SignColumn' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg=NONE guibg=NONE'
 " hi! Special
 exe 'hi! SpellBad' . ' gui=undercurl' . ' guisp='.s:magenta.gui
