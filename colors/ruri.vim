@@ -18,6 +18,7 @@ let s:green = {'cterm': '70', 'gui': '#5cab2b'}
 let s:orange = {'cterm': '172', 'gui': '#cc7e00'}
 
 let s:light_blue = {'cterm': '37', 'gui': '#2b9cab'}
+let s:cyan = {'cterm': '36', 'gui': '#2bab7a'}
 let s:gray = {'cterm': '243', 'gui': '#767676'}
 let s:dark_gray = {'cterm': '238', 'gui': '#444444'}
 let s:light_black = {'cterm': '236', 'gui': '#303030'}
@@ -41,7 +42,7 @@ exe 'hi! Statement' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . ' 
 hi! link Conditional Statement
 hi! link Repeat Statement
 hi! link Label Statement
-exe 'hi! Operator' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui
+exe 'hi! Operator' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui
 hi! link Keyword Operator
 hi! link Exception Statement
 
