@@ -24,7 +24,7 @@ let s:dark_gray = {'cterm': '238', 'gui': '#444444'}
 let s:light_black = {'cterm': '236', 'gui': '#303030'}
 
 
-exe 'hi! Normal' . ' ctermfg='.s:white.cterm  . ' ctermbg='.s:black.cterm . ' guifg='.s:white.gui ' guibg='.s:black.gui
+exe 'hi! Normal' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg=NONE' . ' guibg='.s:black.gui
 exe 'hi! Comment' . ' ctermfg='.s:gray.cterm  . ' guifg='.s:gray.gui
 exe 'hi! Constant' . ' ctermfg='.s:light_blue.cterm . ' guifg='.s:light_blue.gui . ' term=NONE'
 hi! link String Constant
