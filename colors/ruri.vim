@@ -15,7 +15,7 @@ let s:red = {'cterm': '124', 'gui': '#ab3a2b'}
 let s:magenta = {'cterm': '125', 'gui': '#ab2b5c'}
 let s:blue = {'cterm': '25', 'gui': '#2a5caa'}
 let s:green = {'cterm': '70', 'gui': '#5cab2b'}
-let s:orange = {'cterm': '172', 'gui': '#cc7e00'}
+let s:orange = {'cterm': '136', 'gui': '#aa782a'}
 
 let s:light_blue = {'cterm': '37', 'gui': '#2b9cab'}
 let s:cyan = {'cterm': '36', 'gui': '#2bab7a'}
