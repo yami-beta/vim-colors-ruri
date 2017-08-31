@@ -14,7 +14,7 @@ let s:white = {'cterm': '251', 'gui': '#c6c6c6'}
 let s:red = {'cterm': '124', 'gui': '#ab3a2b'}
 let s:magenta = {'cterm': '125', 'gui': '#ab2b5c'}
 let s:blue = {'cterm': '25', 'gui': '#2a5caa'}
-let s:green = {'cterm': '70', 'gui': '#5cab2b'}
+let s:green = {'cterm': '36', 'gui': '#1fa371'}
 let s:orange = {'cterm': '136', 'gui': '#aa782a'}
 
 let s:light_blue = {'cterm': '37', 'gui': '#2b9cab'}
@@ -26,7 +26,7 @@ let s:light_black = {'cterm': '236', 'gui': '#303030'}
 
 exe 'hi! Normal' . ' ctermfg='.s:white.cterm . ' guifg='.s:white.gui . ' ctermbg=NONE' . ' guibg='.s:black.gui
 exe 'hi! Comment' . ' ctermfg='.s:gray.cterm  . ' guifg='.s:gray.gui
-exe 'hi! Constant' . ' ctermfg='.s:light_blue.cterm . ' guifg='.s:light_blue.gui . ' term=NONE'
+exe 'hi! Constant' . ' ctermfg='.s:green.cterm . ' guifg='.s:green.gui . ' term=NONE'
 hi! link String Constant
 hi! link Number Constant
 hi! link Boolean Constant
@@ -38,7 +38,7 @@ exe 'hi! Identifier' . ' cterm=NONE' . ' ctermfg='.s:blue.cterm . ' guifg='.s:bl
 hi! link Function Identifier
 hi! link Title Identifier
 
-exe 'hi! Statement' . ' ctermfg='.s:magenta.cterm . ' guifg='.s:magenta.gui . ' gui=NONE'
+exe 'hi! Statement' . ' ctermfg='.s:light_blue.cterm . ' guifg='.s:light_blue.gui . ' gui=NONE'
 hi! link Conditional Statement
 hi! link Repeat Statement
 hi! link Label Statement
