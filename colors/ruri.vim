@@ -72,6 +72,7 @@ exe 'hi! MatchParen' . ' term=reverse' . ' ctermfg='.s:white.cterm . ' guifg='.s
 
 hi! link LineNr Comment
 exe 'hi! CursorLine' . ' cterm=NONE gui=NONE' . ' ctermbg='.s:light_black.cterm . ' guibg='.s:light_black.gui
+exe 'hi! CursorColumn' . ' cterm=NONE gui=NONE' . ' ctermbg='.s:light_black.cterm . ' guibg='.s:light_black.gui
 exe 'hi! CursorLineNr' . ' ctermfg='.s:blue.cterm . ' guifg='.s:blue.gui . ' ctermbg='.s:light_black.cterm . ' guibg='.s:light_black.gui
 exe 'hi! SpecialKey' . ' term=NONE gui=NONE' . ' ctermfg='.s:dark_gray.cterm . ' guifg='.s:dark_gray.gui
 hi! link NonText SpecialKey
