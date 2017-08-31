@@ -1,14 +1,18 @@
-let s:black      = [ '#1c1c1c', 234 ]
-let s:white      = [ '#c6c6c6', 251 ]
-let s:dark_gray  = [ '#444444', 238 ]
-let s:gray       = [ '#767676', 243 ]
-let s:light_gray = [ '#767676', 243 ]
-let s:orange     = [ '#aa782a', 172 ]
-let s:red        = [ '#ab3a2b', 124 ]
-let s:magenta    = [ '#ab2b5c', 125 ]
-let s:blue       = [ '#2a5caa', 25 ]
-let s:light_blue = [ '#2b9cab', 37 ]
-let s:green      = [ '#5cab2b', 70 ]
+let s:black       = [ '#1c1c1c', '234' ]
+let s:white       = [ '#c6c6c6', '251' ]
+let s:red         = [ '#ab3a2b', '124' ]
+let s:magenta     = [ '#ab2b5c', '125' ]
+let s:blue        = [ '#2a5caa', '25' ]
+let s:green       = [ '#1fa371', '36' ]
+let s:orange      = [ '#aa782a', '136' ]
+
+let s:light_blue  = [ '#2b9cab', '37' ]
+let s:cyan        = [ '#2bab7a', '36' ]
+let s:gray        = [ '#767676', '243' ]
+let s:dark_gray   = [ '#444444', '238' ]
+let s:light_black = [ '#303030', '236' ]
+
+
 
 let s:p                 = {'normal': {}, 'inactive': {}, 'insert': {}, 'replace': {}, 'visual': {}, 'tabline': {}}
 let s:p.normal.left     = [ [ s:white, s:blue ], [ s:white, s:dark_gray ] ]
